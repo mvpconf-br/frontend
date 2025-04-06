@@ -1,6 +1,4 @@
+import AuthForm from '@/components/AuthForm'
 
-const Register = () => {
-  return <div>Register</div>
-}
-
+const Register = () => <AuthForm type="cadastro" />
 export default Register
