@@ -5,6 +5,11 @@ import Card from '../components/Card'
 import Link from '../assets/images/link.png'
 import Double_heart from '../assets/images/double heart.png'
 import Microphone from '../assets/images/microphone.png'
+import Speakerscard from '../components/SpeakersCard'
+import Thamirys from '../assets/images/Thamirys.png'
+import Alan from '../assets/images/Alan.png'
+import Cristiano from '../assets/images/Cristiano.png'
+import FAQ from '../components/FAQ'
 
 const Home = () => {
   return (
@@ -66,7 +71,55 @@ const Home = () => {
           </div>
       </section>
 
-      
+      <section className='speakers-section'>
+        <div className='speakers-content'>
+          <h2 className='speakers-title'>Palestrantes do evento</h2>
+          
+          <div className='speakers-card-content'>
+            <Speakerscard
+            Image={Thamirys}
+            Name="Thamirys Gameiro"
+            Role="DEV .NET SENIOR"/>
+
+            <Speakerscard
+            Image={Cristiano}
+            Name="Cristiano Rodrigues"
+            Role="SOFTWARE ENGINEER"/> 
+
+            <Speakerscard
+            Image={Alan}
+            Name="Alan Araujo"
+            Role="PRODUCT OWNER"/>
+          </div>
+
+        </div>
+      </section>
+
+      <section className='FAQ-section'>
+        <h2>Perguntas Frequentes</h2>
+
+        <div className='FAQ-content'>
+          <FAQ
+           title='Quando e onde será o evento?'
+           content='lorem ipsum dolor sit emet'/>
+
+          <FAQ
+           title='Como posso adquirir o ingresso?'
+           content='lorem ipsum dolor sit emet'/>
+
+          <FAQ
+           title='Quem pode participar da MVPCONF?'
+           content='lorem ipsum dolor sit emet'/>
+
+          <FAQ
+           title='Os conteúdos ficarão disponíveis depois do evento?'
+           content='lorem ipsum dolor sit emet'/>
+
+          <FAQ
+           title='Posso cancelar meu ingresso e obter reembolso?'
+           content='lorem ipsum dolor sit emet'/>
+        </div>
+      </section>
     </main>
     
   )

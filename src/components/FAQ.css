@@ -1,0 +1,10 @@
+details {
+  color: #FFFFFF;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+  padding: 16px 0px 16px 0px;
+
+  summary {
+    font-weight: 500;
+  }
+}

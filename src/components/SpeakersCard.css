@@ -1,0 +1,32 @@
+.speakers-card {
+  background-color: #FFFFFF;
+  width: 206px;
+  border-radius: 14px;
+  padding: 0px 0px 0px 16px;
+
+  img {
+    padding-top: 15px;
+    margin-bottom: 12px;
+  }
+
+  h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 120%;
+    width: 100px;
+    color: var(--primary-color);
+    margin-bottom: 6px;
+  }
+
+  h3 {
+    padding-bottom: 15px;    
+    font-family: "Inter", sans-serif;
+    font-size: 11.49px;
+    font-weight: bold;
+    line-height: 150%;
+    color: #364459;
+    width: 80px;
+    letter-spacing: 1px;
+  }
+}
