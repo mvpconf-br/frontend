@@ -61,9 +61,10 @@
   display: flex;
   justify-content: center;
   background-color: var(--primary-color);
+  padding: 0px 31px 0px 31px;
 
   .about-content {
-    width: 327px;
+    min-width: 327px;
     height: 326px;
     border: 1px solid #FFFFFF;
     border-radius: 8px;
@@ -91,6 +92,25 @@
       color: #FFFFFF;
       line-height: 151%;
     }
+  }
+}
+
+.card-section {
+  padding: 0px 31px 0px 31px;
+  background-color: var(--primary-color);
+
+  .about-title {
+    font-size: 1.916rem;
+    color: #FFFFFF;
+    line-height: 120%;
+    margin-bottom: 48px;
+    padding-top: 64px;
+  }
+
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
   }
 }
 

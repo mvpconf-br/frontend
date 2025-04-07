@@ -1,6 +1,10 @@
 import './Home.css'
 import persona from '../assets/images/Persona.png'
 import icon_about from '../assets/images/icon.png'
+import Card from '../components/Card'
+import Link from '../assets/images/link.png'
+import Double_heart from '../assets/images/double heart.png'
+import Microphone from '../assets/images/microphone.png'
 
 const Home = () => {
   return (
@@ -35,6 +39,34 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <section className='card-section'>
+          <h2 className='about-title'>
+            O que esperar da <b>MVPCONF?</b>
+          </h2>
+          
+          <div className='card-content'>
+            <Card
+            icon_image={Link}
+            title="Networking"
+            text="Compartilhe experiências, troque ideias e amplie sua rede de contatos.
+              O networking pode ser a chave para o crescimento profissional."/>
+
+            <Card
+            icon_image={Microphone}
+            title="Palestras"
+            text='Uma oportunidade única para adquirir novos conhecimentos,
+              trocar experiências e se conectar com especialistas da área.'/>
+
+            <Card
+            icon_image={Double_heart}
+            title='Profissionais de referência'
+            text='Aprenda com quem já trilhou um caminho de sucesso,
+              absorva insights valiosos e use essas experiências para impulsionar sua própria trajetória.'/>
+          </div>
+      </section>
+
+      
     </main>
     
   )
